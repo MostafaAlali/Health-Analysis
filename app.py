@@ -6,7 +6,9 @@ import pandas as pd
 load_dotenv()
 
 # Initialize LLM
-llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
+llm = ChatGoogleGenerativeAI(
+    model="gemini-2.5-flash",
+    google_api_key=st.secrets["GOOGLE_API_KEY"]
 
 # Page configuration
 st.set_page_config(
