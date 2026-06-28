@@ -51,7 +51,7 @@ Try the agent by you self for here:[Medical Blood Report Analyzer](https://healt
 ### Setup
 
 ```bash
-git clone https://github.com/yourusername/medical-blood-report-analyzer.git
+git clone https://github.com/MostafaAlali/Medical-Blood-Report-Analyzer-.git
 cd medical-blood-report-analyzer
 
 python -m venv venv
